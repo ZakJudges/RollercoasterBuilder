@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>Mouse.cpp</FILENAME>
+      <LINE>521</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'DirectX::Mouse::Mode' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>DirectX::Mouse::Impl::{ctor}</FUNCTION>
+    <DECORATED>??0Impl@Mouse@DirectX@@QAE@PAV12@@Z</DECORATED>
+    <FUNCLINE>519</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>Mouse.cpp</FILENAME>
+      <LINE>880</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>DirectX::Mouse::{ctor}</FUNCTION>
+    <DECORATED>??0Mouse@DirectX@@QAE@$$QAV01@@Z</DECORATED>
+    <FUNCLINE>880</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>Mouse.cpp</FILENAME>
+      <LINE>888</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>DirectX::Mouse::=</FUNCTION>
+    <DECORATED>??4Mouse@DirectX@@QAEAAV01@$$QAV01@@Z</DECORATED>
+    <FUNCLINE>888</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>Mouse.cpp</FILENAME>
+      <LINE>940</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'DirectX::Mouse::ButtonStateTracker::ButtonState' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>DirectX::Mouse::ButtonStateTracker::Update</FUNCTION>
+    <DECORATED>?Update@ButtonStateTracker@Mouse@DirectX@@QAAXABUState@23@@Z</DECORATED>
+    <FUNCLINE>938</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

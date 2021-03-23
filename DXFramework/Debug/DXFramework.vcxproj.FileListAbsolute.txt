@@ -1,0 +1,10 @@
+C:\Users\zakju\OneDrive\Documents\Visual Studio 2015\Projects\CMP301 - Graphics Programming with Shaders\Shaders\Debug\DXFramework.pdb
+C:\Users\zakju\OneDrive\Documents\Visual Studio 2015\Projects\CMP301 - Graphics Programming with Shaders\Shaders\DXFramework\Debug\DXFramework.pdb
+D:\Projects\DirectX11Projects\Debug\DXFramework.pdb
+D:\Projects\DirectX11Projects\DXFramework\Debug\DXFramework.pdb
+C:\DirectX11Projects\Debug\DXFramework.pdb
+C:\DirectX11Projects\DXFramework\Debug\DXFramework.pdb
+C:\Portfolio\RollercoasterBuilder\Debug\DXFramework.pdb
+C:\Portfolio\RollercoasterBuilder\DXFramework\Debug\DXFramework.pdb
+C:\Portfolio\test\RollercoasterBuilder\Debug\DXFramework.pdb
+C:\Portfolio\test\RollercoasterBuilder\DXFramework\Debug\DXFramework.pdb

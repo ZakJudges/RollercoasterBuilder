@@ -1,0 +1,51 @@
+﻿  pch.cpp
+  AlphaTestEffect.cpp
+  BasicEffect.cpp
+  CommonStates.cpp
+  DDSTextureLoader.cpp
+  DGSLEffect.cpp
+  DGSLEffectFactory.cpp
+  DualTextureEffect.cpp
+  BinaryReader.cpp
+  EffectCommon.cpp
+  EffectFactory.cpp
+  EnvironmentMapEffect.cpp
+  GamePad.cpp
+  GeometricPrimitive.cpp
+  Geometry.cpp
+C:\DirectX11Projects\DirectXTK\Src\Geometry.cpp(149,20): error C2039: 'out_of_range': is not a member of 'std'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\new.h(24): message : see declaration of 'std'
+C:\DirectX11Projects\DirectXTK\Src\Geometry.cpp(149,32): error C3861: 'out_of_range': identifier not found
+C:\DirectX11Projects\DirectXTK\Src\Geometry.cpp(379,25): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\DirectX11Projects\DirectXTK\Src\Geometry.cpp(380,24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\DirectX11Projects\DirectXTK\Src\Geometry.cpp(615,20): error C2039: 'out_of_range': is not a member of 'std'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\new.h(24): message : see declaration of 'std'
+C:\DirectX11Projects\DirectXTK\Src\Geometry.cpp(615,32): error C3861: 'out_of_range': identifier not found
+C:\DirectX11Projects\DirectXTK\Src\Geometry.cpp(664,20): error C2039: 'out_of_range': is not a member of 'std'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\new.h(24): message : see declaration of 'std'
+C:\DirectX11Projects\DirectXTK\Src\Geometry.cpp(664,32): error C3861: 'out_of_range': identifier not found
+C:\DirectX11Projects\DirectXTK\Src\Geometry.cpp(716,20): error C2039: 'out_of_range': is not a member of 'std'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\new.h(24): message : see declaration of 'std'
+C:\DirectX11Projects\DirectXTK\Src\Geometry.cpp(716,32): error C3861: 'out_of_range': identifier not found
+C:\DirectX11Projects\DirectXTK\Src\Geometry.cpp(1154,20): error C2039: 'out_of_range': is not a member of 'std'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\new.h(24): message : see declaration of 'std'
+C:\DirectX11Projects\DirectXTK\Src\Geometry.cpp(1154,32): error C3861: 'out_of_range': identifier not found
+  GraphicsMemory.cpp
+  Keyboard.cpp
+  Model.cpp
+  ModelLoadCMO.cpp
+  ModelLoadSDKMESH.cpp
+  ModelLoadVBO.cpp
+  Generating Code...
+  Compiling...
+  Mouse.cpp
+  NormalMapEffect.cpp
+  ScreenGrab.cpp
+  SimpleMath.cpp
+  SkinnedEffect.cpp
+  SpriteBatch.cpp
+  PrimitiveBatch.cpp
+  SpriteFont.cpp
+  VertexTypes.cpp
+  WICTextureLoader.cpp
+  Generating Code...

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>GraphicsMemory.cpp</FILENAME>
+      <LINE>294</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>DirectX::GraphicsMemory::{ctor}</FUNCTION>
+    <DECORATED>??0GraphicsMemory@DirectX@@QAE@$$QAV01@@Z</DECORATED>
+    <FUNCLINE>294</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>GraphicsMemory.cpp</FILENAME>
+      <LINE>302</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>DirectX::GraphicsMemory::=</FUNCTION>
+    <DECORATED>??4GraphicsMemory@DirectX@@QAEAAV01@$$QAV01@@Z</DECORATED>
+    <FUNCLINE>302</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

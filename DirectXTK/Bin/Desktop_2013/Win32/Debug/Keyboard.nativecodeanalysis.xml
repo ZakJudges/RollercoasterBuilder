@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Inc\</FILEPATH>
+      <FILENAME>Keyboard.h</FILENAME>
+      <LINE>405</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'DirectX::Keyboard::Keys' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>DirectX::Keyboard::State::IsKeyDown</FUNCTION>
+    <DECORATED>?IsKeyDown@State@Keyboard@DirectX@@QBA_NW4Keys@23@@Z</DECORATED>
+    <FUNCLINE>405</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>Keyboard.cpp</FILENAME>
+      <LINE>446</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>DirectX::Keyboard::{ctor}</FUNCTION>
+    <DECORATED>??0Keyboard@DirectX@@QAE@$$QAV01@@Z</DECORATED>
+    <FUNCLINE>446</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>Keyboard.cpp</FILENAME>
+      <LINE>454</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>DirectX::Keyboard::=</FUNCTION>
+    <DECORATED>??4Keyboard@DirectX@@QAEAAV01@$$QAV01@@Z</DECORATED>
+    <FUNCLINE>454</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

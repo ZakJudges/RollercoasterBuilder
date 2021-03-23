@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Inc\</FILEPATH>
+      <FILENAME>DirectXHelpers.h</FILENAME>
+      <LINE>63</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'D3D11_MAP' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>DirectX::MapGuard::{ctor}</FUNCTION>
+    <DECORATED>??0MapGuard@DirectX@@QAE@PAUID3D11DeviceContext@@PAUID3D11Resource@@IW4D3D11_MAP@@I@Z</DECORATED>
+    <FUNCLINE>63</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>GeometricPrimitive.cpp</FILENAME>
+      <LINE>118</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'DirectX::GeometricPrimitive::Impl::mIndexCount' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>DirectX::GeometricPrimitive::Impl::{ctor}</FUNCTION>
+    <DECORATED>??0Impl@GeometricPrimitive@DirectX@@QAE@XZ</DECORATED>
+    <FUNCLINE>118</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>DirectX::GeometricPrimitive::Impl::mIndexCount</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>GeometricPrimitive.cpp</FILENAME>
+      <LINE>30</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'D3D11_BIND_FLAG' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>`anonymous-namespace'::CreateBuffer</FUNCTION>
+    <DECORATED>??$CreateBuffer@V?$vector@UVertexPositionNormalTexture@DirectX@@V?$allocator@UVertexPositionNormalTexture@DirectX@@@std@@@std@@@?A0x48fcfb09@@YAXPAUID3D11Device@@ABV?$vector@UVertexPositionNormalTexture@DirectX@@V?$allocator@UVertexPositionNormalTexture@DirectX@@@std@@@std@@W4D3D11_BIND_FLAG@@PAPAUID3D11Buffer@@@Z</DECORATED>
+    <FUNCLINE>30</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

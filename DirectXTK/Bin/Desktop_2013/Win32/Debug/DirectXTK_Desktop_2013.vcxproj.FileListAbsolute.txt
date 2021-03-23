@@ -1,0 +1,4 @@
+D:\Projects\DirectX11Projects\DirectXTK\Bin\Desktop_2013\Win32\Debug\DirectXTK.lib
+D:\Projects\DirectX11Projects\DirectXTK\Bin\Desktop_2013\Win32\Debug\DirectXTK.pdb
+D:\Projects\DirectX11Projects\DirectXTK\Bin\Desktop_2013\Win32\Debug\DirectXTK.lib.lastcodeanalysissucceeded
+D:\Projects\DirectX11Projects\DirectXTK\Bin\Desktop_2013\Win32\Debug\NativeCodeAnalysis.read.1.tlog

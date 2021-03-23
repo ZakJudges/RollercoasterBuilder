@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>EffectFactory.cpp</FILENAME>
+      <LINE>433</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>DirectX::EffectFactory::{ctor}</FUNCTION>
+    <DECORATED>??0EffectFactory@DirectX@@QAE@$$QAV01@@Z</DECORATED>
+    <FUNCLINE>433</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>EffectFactory.cpp</FILENAME>
+      <LINE>438</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>DirectX::EffectFactory::=</FUNCTION>
+    <DECORATED>??4EffectFactory@DirectX@@QAEAAV01@$$QAV01@@Z</DECORATED>
+    <FUNCLINE>438</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

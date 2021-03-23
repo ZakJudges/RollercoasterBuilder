@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\DirectX11Projects\DXFramework\</FILEPATH>
+      <FILENAME>BaseMesh.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'BaseMesh::indexBuffer' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>BaseMesh::{ctor}</FUNCTION>
+    <DECORATED>??0BaseMesh@@QAE@XZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>BaseMesh::indexBuffer</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\DirectX11Projects\DXFramework\</FILEPATH>
+      <FILENAME>BaseMesh.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'BaseMesh::vertexBuffer' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>BaseMesh::{ctor}</FUNCTION>
+    <DECORATED>??0BaseMesh@@QAE@XZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>BaseMesh::vertexBuffer</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\DirectX11Projects\DXFramework\</FILEPATH>
+      <FILENAME>BaseMesh.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'BaseMesh::vertexCount' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>BaseMesh::{ctor}</FUNCTION>
+    <DECORATED>??0BaseMesh@@QAE@XZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>BaseMesh::vertexCount</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\DirectX11Projects\DXFramework\</FILEPATH>
+      <FILENAME>BaseMesh.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'BaseMesh::indexCount' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>BaseMesh::{ctor}</FUNCTION>
+    <DECORATED>??0BaseMesh@@QAE@XZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>BaseMesh::indexCount</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

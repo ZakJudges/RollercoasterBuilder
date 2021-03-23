@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Inc\</FILEPATH>
+      <FILENAME>DirectXHelpers.h</FILENAME>
+      <LINE>63</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'D3D11_MAP' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>DirectX::MapGuard::{ctor}</FUNCTION>
+    <DECORATED>??0MapGuard@DirectX@@QAE@PAUID3D11DeviceContext@@PAUID3D11Resource@@IW4D3D11_MAP@@I@Z</DECORATED>
+    <FUNCLINE>63</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>LoaderHelpers.h</FILENAME>
+      <LINE>27</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'DXGI_FORMAT' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>DirectX::BitsPerPixel</FUNCTION>
+    <DECORATED>?BitsPerPixel@DirectX@@YAIW4DXGI_FORMAT@@@Z</DECORATED>
+    <FUNCLINE>27</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>LoaderHelpers.h</FILENAME>
+      <LINE>790</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'DirectX::DDS_ALPHA_MODE' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>DirectX::GetAlphaMode</FUNCTION>
+    <DECORATED>?GetAlphaMode@DirectX@@YA?AW4DDS_ALPHA_MODE@1@PBUDDS_HEADER@1@@Z</DECORATED>
+    <FUNCLINE>783</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>ScreenGrab.cpp</FILENAME>
+      <LINE>51</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'D3D11_RESOURCE_DIMENSION' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>`anonymous-namespace'::CaptureTexture</FUNCTION>
+    <DECORATED>?CaptureTexture@?A0x2bb93a11@@YAJPAUID3D11DeviceContext@@PAUID3D11Resource@@AAUD3D11_TEXTURE2D_DESC@@AAV?$ComPtr@UID3D11Texture2D@@@WRL@Microsoft@@@Z</DECORATED>
+    <FUNCLINE>43</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

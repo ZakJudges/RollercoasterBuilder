@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="App1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LineController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ColourShader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultShader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="LineMesh.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="SplineMesh.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="CoasterCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Track.cpp">
+      <Filter>Source Files\TrackBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackBuilder.cpp">
+      <Filter>Source Files\TrackBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="ClimbDown.cpp">
+      <Filter>Source Files\TrackBuilder\TrackPieces</Filter>
+    </ClCompile>
+    <ClCompile Include="ClimbUp.cpp">
+      <Filter>Source Files\TrackBuilder\TrackPieces</Filter>
+    </ClCompile>
+    <ClCompile Include="CompleteTrack.cpp">
+      <Filter>Source Files\TrackBuilder\TrackPieces</Filter>
+    </ClCompile>
+    <ClCompile Include="LeftTurn.cpp">
+      <Filter>Source Files\TrackBuilder\TrackPieces</Filter>
+    </ClCompile>
+    <ClCompile Include="RightTurn.cpp">
+      <Filter>Source Files\TrackBuilder\TrackPieces</Filter>
+    </ClCompile>
+    <ClCompile Include="Straight.cpp">
+      <Filter>Source Files\TrackBuilder\TrackPieces</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackPiece.cpp">
+      <Filter>Source Files\TrackBuilder\TrackPieces</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationState.cpp">
+      <Filter>Source Files\ApplicationStates</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildingState.cpp">
+      <Filter>Source Files\ApplicationStates</Filter>
+    </ClCompile>
+    <ClCompile Include="SimulatingState.cpp">
+      <Filter>Source Files\ApplicationStates</Filter>
+    </ClCompile>
+    <ClCompile Include="CylinderMesh.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="PipeMesh.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshInstance.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="CrossTieMesh.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackPreview.cpp">
+      <Filter>Source Files\TrackBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="FromFile.cpp">
+      <Filter>Source Files\TrackBuilder\TrackPieces</Filter>
+    </ClCompile>
+    <ClCompile Include="EditMode.cpp">
+      <Filter>Source Files\TrackBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackMesh.cpp">
+      <Filter>Source Files\TrackBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackLoader.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SupportMesh.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LineController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ColourShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="LineMesh.h">
+      <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="SplineMesh.h">
+      <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="CoasterCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Track.h">
+      <Filter>Header Files\TrackBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackBuilder.h">
+      <Filter>Header Files\TrackBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="ClimbDown.h">
+      <Filter>Header Files\TrackBuilder\TrackPieces</Filter>
+    </ClInclude>
+    <ClInclude Include="ClimbUp.h">
+      <Filter>Header Files\TrackBuilder\TrackPieces</Filter>
+    </ClInclude>
+    <ClInclude Include="LeftTurn.h">
+      <Filter>Header Files\TrackBuilder\TrackPieces</Filter>
+    </ClInclude>
+    <ClInclude Include="CompleteTrack.h">
+      <Filter>Header Files\TrackBuilder\TrackPieces</Filter>
+    </ClInclude>
+    <ClInclude Include="RightTurn.h">
+      <Filter>Header Files\TrackBuilder\TrackPieces</Filter>
+    </ClInclude>
+    <ClInclude Include="Straight.h">
+      <Filter>Header Files\TrackBuilder\TrackPieces</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackPiece.h">
+      <Filter>Header Files\TrackBuilder\TrackPieces</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationState.h">
+      <Filter>Header Files\ApplicationStates</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildingState.h">
+      <Filter>Header Files\ApplicationStates</Filter>
+    </ClInclude>
+    <ClInclude Include="SimulatingState.h">
+      <Filter>Header Files\ApplicationStates</Filter>
+    </ClInclude>
+    <ClInclude Include="CylinderMesh.h">
+      <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="PipeMesh.h">
+      <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshInstance.h">
+      <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="CrossTieMesh.h">
+      <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackPreview.h">
+      <Filter>Header Files\TrackBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="FromFile.h">
+      <Filter>Header Files\TrackBuilder\TrackPieces</Filter>
+    </ClInclude>
+    <ClInclude Include="EditMode.h">
+      <Filter>Header Files\TrackBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackMesh.h">
+      <Filter>Header Files\TrackBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackLoader.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SupportMesh.h">
+      <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{f745f94f-72cc-4d37-a0df-819d97ab954f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9f165699-24b9-485d-bb25-0a37f4f6878a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{7edcf029-8a1d-426e-9d48-efb1f0883aa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shaders">
+      <UniqueIdentifier>{4b311979-2375-42fa-934c-7dde6ec12e13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders">
+      <UniqueIdentifier>{8166bb34-6ea6-40c4-9e49-62d029e2b978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mesh">
+      <UniqueIdentifier>{b801ed5e-9fbc-43ee-9d6b-ac84a7cf85cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mesh">
+      <UniqueIdentifier>{027390db-e171-42dd-b2ef-d1b840b54c8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TrackBuilder">
+      <UniqueIdentifier>{b4ee3b76-3b43-4760-a414-c5868c24d168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TrackBuilder">
+      <UniqueIdentifier>{e2fcc9aa-0edf-4cd7-9dba-18b0c4ff80d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TrackBuilder\TrackPieces">
+      <UniqueIdentifier>{c2cafa78-45fd-40c9-9266-a2d97a0d15cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TrackBuilder\TrackPieces">
+      <UniqueIdentifier>{e9d9994a-2f32-4797-8ce3-dd9f2eed54e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ApplicationStates">
+      <UniqueIdentifier>{d7c24424-f3e6-48d0-9a3a-d825e80eccaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ApplicationStates">
+      <UniqueIdentifier>{588e682e-b0fa-4c67-b1d8-fbd8eedb436b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{5be5bc46-4de0-43ec-84d0-e2e748b465d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{c0109b87-356a-45ad-b61a-bfda6500b5eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shaders\colour_ps.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\colour_vs.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\default_ps.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\default_vs.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

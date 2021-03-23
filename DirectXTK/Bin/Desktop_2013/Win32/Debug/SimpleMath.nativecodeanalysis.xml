@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>SimpleMath.cpp</FILENAME>
+      <LINE>120</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'DXGI_SCALING' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>DirectX::SimpleMath::Viewport::ComputeDisplayArea</FUNCTION>
+    <DECORATED>?ComputeDisplayArea@Viewport@SimpleMath@DirectX@@SA?AUtagRECT@@W4DXGI_SCALING@@IIHH@Z</DECORATED>
+    <FUNCLINE>120</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

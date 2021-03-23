@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7169974C-40D1-4884-8E97-4A9D907BD9E7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>E01_ColourShader</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>SplineApp</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>$(SolutionDir)exe;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>C:\DirectX11Projects\DirectXTK\Bin\Desktop_2013\Win32\Release;C:\DirectX11Projects\Release;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\DirectX11Projects\Spline-Library;D:\Projects\DirectX11Projects\SplineApp;$(solutiondir)\Debug</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d11.lib;DXFramework.lib;dxgi.lib;D3DCompiler.lib;Splines.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)/Debug</AdditionalLibraryDirectories>
+    </Link>
+    <FxCompile>
+      <ObjectFileOutput>$(Directory)%(Filename).cso</ObjectFileOutput>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\Projects\DirectX11Projects\SplineApp;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>Splines.lib;DXFramework.lib;DirectXTK.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="App1.cpp" />
+    <ClCompile Include="ApplicationState.cpp" />
+    <ClCompile Include="BuildingState.cpp" />
+    <ClCompile Include="ClimbDown.cpp" />
+    <ClCompile Include="ClimbUp.cpp" />
+    <ClCompile Include="CoasterCamera.cpp" />
+    <ClCompile Include="Collision.cpp" />
+    <ClCompile Include="ColourShader.cpp" />
+    <ClCompile Include="CompleteTrack.cpp" />
+    <ClCompile Include="CrossTieMesh.cpp" />
+    <ClCompile Include="CylinderMesh.cpp" />
+    <ClCompile Include="DefaultShader.cpp" />
+    <ClCompile Include="EditMode.cpp" />
+    <ClCompile Include="FromFile.cpp" />
+    <ClCompile Include="LeftTurn.cpp" />
+    <ClCompile Include="LineController.cpp" />
+    <ClCompile Include="LineMesh.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MeshInstance.cpp" />
+    <ClCompile Include="PipeMesh.cpp" />
+    <ClCompile Include="RightTurn.cpp" />
+    <ClCompile Include="SimulatingState.cpp" />
+    <ClCompile Include="SplineMesh.cpp" />
+    <ClCompile Include="Straight.cpp" />
+    <ClCompile Include="SupportMesh.cpp" />
+    <ClCompile Include="Track.cpp" />
+    <ClCompile Include="TrackBuilder.cpp" />
+    <ClCompile Include="TrackLoader.cpp" />
+    <ClCompile Include="TrackMesh.cpp" />
+    <ClCompile Include="TrackPiece.cpp" />
+    <ClCompile Include="TrackPreview.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App1.h" />
+    <ClInclude Include="ApplicationState.h" />
+    <ClInclude Include="BuildingState.h" />
+    <ClInclude Include="ClimbDown.h" />
+    <ClInclude Include="ClimbUp.h" />
+    <ClInclude Include="CoasterCamera.h" />
+    <ClInclude Include="Collision.h" />
+    <ClInclude Include="ColourShader.h" />
+    <ClInclude Include="CompleteTrack.h" />
+    <ClInclude Include="CrossTieMesh.h" />
+    <ClInclude Include="CylinderMesh.h" />
+    <ClInclude Include="DefaultShader.h" />
+    <ClInclude Include="EditMode.h" />
+    <ClInclude Include="FromFile.h" />
+    <ClInclude Include="LeftTurn.h" />
+    <ClInclude Include="LineController.h" />
+    <ClInclude Include="LineMesh.h" />
+    <ClInclude Include="MeshInstance.h" />
+    <ClInclude Include="PipeMesh.h" />
+    <ClInclude Include="RightTurn.h" />
+    <ClInclude Include="SimulatingState.h" />
+    <ClInclude Include="SplineMesh.h" />
+    <ClInclude Include="Straight.h" />
+    <ClInclude Include="SupportMesh.h" />
+    <ClInclude Include="Track.h" />
+    <ClInclude Include="TrackBuilder.h" />
+    <ClInclude Include="TrackLoader.h" />
+    <ClInclude Include="TrackMesh.h" />
+    <ClInclude Include="TrackPiece.h" />
+    <ClInclude Include="TrackPreview.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DXFramework\DXFramework.vcxproj">
+      <Project>{e887c38b-1273-433a-9dac-a153da5cf145}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shaders\colour_ps.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="shaders\colour_vs.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="shaders\default_ps.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="shaders\default_vs.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+    </FxCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

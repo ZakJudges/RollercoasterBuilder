@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>DGSLEffectFactory.cpp</FILENAME>
+      <LINE>502</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>DirectX::DGSLEffectFactory::{ctor}</FUNCTION>
+    <DECORATED>??0DGSLEffectFactory@DirectX@@QAE@$$QAV01@@Z</DECORATED>
+    <FUNCLINE>502</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>DGSLEffectFactory.cpp</FILENAME>
+      <LINE>507</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>DirectX::DGSLEffectFactory::=</FUNCTION>
+    <DECORATED>??4DGSLEffectFactory@DirectX@@QAEAAV01@$$QAV01@@Z</DECORATED>
+    <FUNCLINE>507</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Inc\</FILEPATH>
+      <FILENAME>DirectXHelpers.h</FILENAME>
+      <LINE>63</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'D3D11_MAP' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>DirectX::MapGuard::{ctor}</FUNCTION>
+    <DECORATED>??0MapGuard@DirectX@@QAE@PAUID3D11DeviceContext@@PAUID3D11Resource@@IW4D3D11_MAP@@I@Z</DECORATED>
+    <FUNCLINE>63</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>CommonStates.cpp</FILENAME>
+      <LINE>72</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'D3D11_BLEND' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>DirectX::CommonStates::Impl::CreateBlendState</FUNCTION>
+    <DECORATED>?CreateBlendState@Impl@CommonStates@DirectX@@QAEJW4D3D11_BLEND@@0PAPAUID3D11BlendState@@@Z</DECORATED>
+    <FUNCLINE>72</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>CommonStates.cpp</FILENAME>
+      <LINE>100</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'D3D11_DEPTH_WRITE_MASK' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>DirectX::CommonStates::Impl::CreateDepthStencilState</FUNCTION>
+    <DECORATED>?CreateDepthStencilState@Impl@CommonStates@DirectX@@QAEJ_N0PAPAUID3D11DepthStencilState@@@Z</DECORATED>
+    <FUNCLINE>95</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>CommonStates.cpp</FILENAME>
+      <LINE>124</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'D3D11_CULL_MODE' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>DirectX::CommonStates::Impl::CreateRasterizerState</FUNCTION>
+    <DECORATED>?CreateRasterizerState@Impl@CommonStates@DirectX@@QAEJW4D3D11_CULL_MODE@@W4D3D11_FILL_MODE@@PAPAUID3D11RasterizerState@@@Z</DECORATED>
+    <FUNCLINE>124</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>CommonStates.cpp</FILENAME>
+      <LINE>124</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'D3D11_FILL_MODE' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>DirectX::CommonStates::Impl::CreateRasterizerState</FUNCTION>
+    <DECORATED>?CreateRasterizerState@Impl@CommonStates@DirectX@@QAEJW4D3D11_CULL_MODE@@W4D3D11_FILL_MODE@@PAPAUID3D11RasterizerState@@@Z</DECORATED>
+    <FUNCLINE>124</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>CommonStates.cpp</FILENAME>
+      <LINE>143</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'D3D11_FILTER' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>DirectX::CommonStates::Impl::CreateSamplerState</FUNCTION>
+    <DECORATED>?CreateSamplerState@Impl@CommonStates@DirectX@@QAEJW4D3D11_FILTER@@W4D3D11_TEXTURE_ADDRESS_MODE@@PAPAUID3D11SamplerState@@@Z</DECORATED>
+    <FUNCLINE>143</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>CommonStates.cpp</FILENAME>
+      <LINE>143</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'D3D11_TEXTURE_ADDRESS_MODE' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>DirectX::CommonStates::Impl::CreateSamplerState</FUNCTION>
+    <DECORATED>?CreateSamplerState@Impl@CommonStates@DirectX@@QAEJW4D3D11_FILTER@@W4D3D11_TEXTURE_ADDRESS_MODE@@PAPAUID3D11SamplerState@@@Z</DECORATED>
+    <FUNCLINE>143</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>CommonStates.cpp</FILENAME>
+      <LINE>179</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>DirectX::CommonStates::{ctor}</FUNCTION>
+    <DECORATED>??0CommonStates@DirectX@@QAE@$$QAV01@@Z</DECORATED>
+    <FUNCLINE>179</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>CommonStates.cpp</FILENAME>
+      <LINE>186</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>DirectX::CommonStates::=</FUNCTION>
+    <DECORATED>??4CommonStates@DirectX@@QAEAAV01@$$QAV01@@Z</DECORATED>
+    <FUNCLINE>186</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Inc\</FILEPATH>
+      <FILENAME>DirectXHelpers.h</FILENAME>
+      <LINE>63</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'D3D11_MAP' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>DirectX::MapGuard::{ctor}</FUNCTION>
+    <DECORATED>??0MapGuard@DirectX@@QAE@PAUID3D11DeviceContext@@PAUID3D11Resource@@IW4D3D11_MAP@@I@Z</DECORATED>
+    <FUNCLINE>63</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>SpriteFont.cpp</FILENAME>
+      <LINE>103</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'DXGI_FORMAT' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>DirectX::SpriteFont::Impl::{ctor}</FUNCTION>
+    <DECORATED>??0Impl@SpriteFont@DirectX@@QAE@PAUID3D11Device@@PAVBinaryReader@2@@Z</DECORATED>
+    <FUNCLINE>77</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>SpriteFont.cpp</FILENAME>
+      <LINE>250</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>DirectX::SpriteFont::{ctor}</FUNCTION>
+    <DECORATED>??0SpriteFont@DirectX@@QAE@$$QAV01@@Z</DECORATED>
+    <FUNCLINE>250</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>SpriteFont.cpp</FILENAME>
+      <LINE>257</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>DirectX::SpriteFont::=</FUNCTION>
+    <DECORATED>??4SpriteFont@DirectX@@QAEAAV01@$$QAV01@@Z</DECORATED>
+    <FUNCLINE>257</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>SpriteFont.cpp</FILENAME>
+      <LINE>270</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'DirectX::SpriteEffects' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>DirectX::SpriteFont::DrawString</FUNCTION>
+    <DECORATED>?DrawString@SpriteFont@DirectX@@QBQXPAVSpriteBatch@2@PB_WABUXMFLOAT2@2@T__m128@@M2MW4SpriteEffects@2@M@Z</DECORATED>
+    <FUNCLINE>270</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

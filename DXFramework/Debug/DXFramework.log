@@ -1,0 +1,29 @@
+﻿  BaseApplication.cpp
+  BaseMesh.cpp
+  BaseShader.cpp
+  Camera.cpp
+  CubeMesh.cpp
+  D3D.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx11.cpp
+  Input.cpp
+  Light.cpp
+  Model.cpp
+  OrthoMesh.cpp
+  PlaneMesh.cpp
+  PointMesh.cpp
+  QuadMesh.cpp
+  RenderTexture.cpp
+  SphereMesh.cpp
+  System.cpp
+  Generating Code...
+  Compiling...
+  TessellationMesh.cpp
+  TextureManager.cpp
+  Timer.cpp
+  TokenStream.cpp
+  TriangleMesh.cpp
+  Generating Code...
+  DXFramework.vcxproj -> C:\Portfolio\test\RollercoasterBuilder\Debug\DXFramework.lib

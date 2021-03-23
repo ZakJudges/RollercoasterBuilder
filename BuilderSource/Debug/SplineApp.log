@@ -1,0 +1,106 @@
+﻿  compilation object save succeeded; see C:\Portfolio\test\RollercoasterBuilder\BuilderSource\colour_ps.cso
+  compilation object save succeeded; see C:\Portfolio\test\RollercoasterBuilder\BuilderSource\colour_vs.cso
+  compilation object save succeeded; see C:\Portfolio\test\RollercoasterBuilder\BuilderSource\default_ps.cso
+  compilation object save succeeded; see C:\Portfolio\test\RollercoasterBuilder\BuilderSource\default_vs.cso
+  App1.cpp
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\App1.cpp(34,91): warning C4316: 'MeshInstance': object allocated on the heap may not be aligned 16
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\App1.cpp(50,20): warning C4018: '<': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\App1.cpp(109,20): warning C4018: '<': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\App1.cpp(171,21): warning C4018: '<': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\App1.cpp(182,21): warning C4018: '<': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\App1.cpp(212,20): warning C4018: '<': signed/unsigned mismatch
+  ApplicationState.cpp
+  BuildingState.cpp
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\BuildingState.cpp(176,35): warning C4018: '>=': signed/unsigned mismatch
+  ClimbDown.cpp
+  ClimbUp.cpp
+  CoasterCamera.cpp
+  Collision.cpp
+  ColourShader.cpp
+  CompleteTrack.cpp
+  CrossTieMesh.cpp
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\CrossTieMesh.cpp(198,35): warning C4018: '<': signed/unsigned mismatch
+  CylinderMesh.cpp
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\CylinderMesh.cpp(30,27): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\CylinderMesh.cpp(108,20): warning C4018: '<': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\CylinderMesh.cpp(113,20): warning C4018: '<': signed/unsigned mismatch
+  DefaultShader.cpp
+  EditMode.cpp
+  FromFile.cpp
+  LeftTurn.cpp
+  LineController.cpp
+  LineMesh.cpp
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\LineMesh.cpp(41,20): warning C4018: '<': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\LineMesh.cpp(52,20): warning C4018: '<': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\LineMesh.cpp(107,20): warning C4018: '<': signed/unsigned mismatch
+  Main.cpp
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\Main.cpp(7,24): warning C4316: 'App1': object allocated on the heap may not be aligned 16
+  MeshInstance.cpp
+  PipeMesh.cpp
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\PipeMesh.cpp(79,45): warning C4018: '>': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\PipeMesh.cpp(95,22): warning C4018: '>': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\PipeMesh.cpp(140,20): warning C4018: '<': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\PipeMesh.cpp(142,21): warning C4018: '<=': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\PipeMesh.cpp(161,20): warning C4018: '<': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\PipeMesh.cpp(163,21): warning C4018: '<': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\PipeMesh.cpp(178,37): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  Compiling...
+  RightTurn.cpp
+  SimulatingState.cpp
+  SplineMesh.cpp
+  Straight.cpp
+  SupportMesh.cpp
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\SupportMesh.cpp(126,20): warning C4018: '<': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\SupportMesh.cpp(128,21): warning C4018: '<=': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\SupportMesh.cpp(147,20): warning C4018: '<': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\SupportMesh.cpp(149,21): warning C4018: '<': signed/unsigned mismatch
+  Track.cpp
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\Track.cpp(151,20): warning C4018: '<': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\Track.cpp(179,20): warning C4018: '<': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\Track.cpp(189,20): warning C4018: '<': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\Track.cpp(209,20): warning C4018: '<': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\Track.cpp(281,23): warning C4018: '<': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\Track.cpp(316,23): warning C4018: '<': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\Track.cpp(630,20): warning C4018: '<': signed/unsigned mismatch
+  TrackBuilder.cpp
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\TrackBuilder.cpp(160,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\TrackBuilder.cpp(248,61): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  TrackLoader.cpp
+  TrackMesh.cpp
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\TrackMesh.cpp(22,73): warning C4316: 'MeshInstance': object allocated on the heap may not be aligned 16
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\TrackMesh.cpp(25,59): warning C4316: 'MeshInstance': object allocated on the heap may not be aligned 16
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\TrackMesh.cpp(28,59): warning C4316: 'MeshInstance': object allocated on the heap may not be aligned 16
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\TrackMesh.cpp(34,85): warning C4316: 'MeshInstance': object allocated on the heap may not be aligned 16
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\TrackMesh.cpp(49,81): warning C4316: 'MeshInstance': object allocated on the heap may not be aligned 16
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\TrackMesh.cpp(52,67): warning C4316: 'MeshInstance': object allocated on the heap may not be aligned 16
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\TrackMesh.cpp(55,67): warning C4316: 'MeshInstance': object allocated on the heap may not be aligned 16
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\TrackMesh.cpp(59,93): warning C4316: 'MeshInstance': object allocated on the heap may not be aligned 16
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\TrackMesh.cpp(85,90): warning C4316: 'SupportMesh': object allocated on the heap may not be aligned 16
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\TrackMesh.cpp(86,92): warning C4316: 'MeshInstance': object allocated on the heap may not be aligned 16
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\TrackMesh.cpp(97,46): warning C4316: 'SupportMesh': object allocated on the heap may not be aligned 16
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\TrackMesh.cpp(101,94): warning C4316: 'MeshInstance': object allocated on the heap may not be aligned 16
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\TrackMesh.cpp(106,79): warning C4316: 'MeshInstance': object allocated on the heap may not be aligned 16
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\TrackMesh.cpp(124,20): warning C4018: '<': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\TrackMesh.cpp(135,20): warning C4018: '<': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\TrackMesh.cpp(155,20): warning C4018: '<': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\TrackMesh.cpp(160,20): warning C4018: '<': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\TrackMesh.cpp(174,20): warning C4018: '<': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\TrackMesh.cpp(196,20): warning C4018: '<': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\TrackMesh.cpp(251,20): warning C4018: '<': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\TrackMesh.cpp(261,20): warning C4018: '<': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\TrackMesh.cpp(271,20): warning C4018: '<': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\TrackMesh.cpp(281,20): warning C4018: '<': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\TrackMesh.cpp(291,20): warning C4018: '<': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\TrackMesh.cpp(301,20): warning C4018: '<': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\TrackMesh.cpp(253,26): warning C4390: ';': empty controlled statement found; is this the intent?
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\TrackMesh.cpp(263,35): warning C4390: ';': empty controlled statement found; is this the intent?
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\TrackMesh.cpp(322,20): warning C4018: '<': signed/unsigned mismatch
+C:\Portfolio\test\RollercoasterBuilder\BuilderSource\TrackMesh.cpp(328,20): warning C4018: '<': signed/unsigned mismatch
+  TrackPiece.cpp
+  TrackPreview.cpp
+  Generating Code...
+DXFramework.lib(WICTextureLoader.obj) : warning LNK4099: PDB 'DirectXTK.pdb' was not found with 'DXFramework.lib(WICTextureLoader.obj)' or at 'C:\Portfolio\test\RollercoasterBuilder\Debug\DirectXTK.pdb'; linking object as if no debug info
+DXFramework.lib(pch.obj) : warning LNK4099: PDB 'DirectXTK.pdb' was not found with 'DXFramework.lib(pch.obj)' or at 'C:\Portfolio\test\RollercoasterBuilder\Debug\DirectXTK.pdb'; linking object as if no debug info
+DXFramework.lib(DDSTextureLoader.obj) : warning LNK4099: PDB 'DirectXTK.pdb' was not found with 'DXFramework.lib(DDSTextureLoader.obj)' or at 'C:\Portfolio\test\RollercoasterBuilder\Debug\DirectXTK.pdb'; linking object as if no debug info
+  SplineApp.vcxproj -> C:\Portfolio\test\RollercoasterBuilder\Debug\SplineApp.exe

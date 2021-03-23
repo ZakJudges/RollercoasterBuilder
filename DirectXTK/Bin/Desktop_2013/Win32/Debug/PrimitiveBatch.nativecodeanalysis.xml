@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Inc\</FILEPATH>
+      <FILENAME>DirectXHelpers.h</FILENAME>
+      <LINE>63</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'D3D11_MAP' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>DirectX::MapGuard::{ctor}</FUNCTION>
+    <DECORATED>??0MapGuard@DirectX@@QAE@PAUID3D11DeviceContext@@PAUID3D11Resource@@IW4D3D11_MAP@@I@Z</DECORATED>
+    <FUNCLINE>63</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>PrimitiveBatch.cpp</FILENAME>
+      <LINE>90</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'D3D11_BIND_FLAG' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>CreateBuffer</FUNCTION>
+    <DECORATED>?CreateBuffer@@YAXPAUID3D11Device@@IW4D3D11_BIND_FLAG@@PAPAUID3D11Buffer@@@Z</DECORATED>
+    <FUNCLINE>90</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>PrimitiveBatch.cpp</FILENAME>
+      <LINE>116</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'D3D_PRIMITIVE_TOPOLOGY' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>DirectX::Internal::PrimitiveBatchBase::Impl::{ctor}</FUNCTION>
+    <DECORATED>??0Impl@PrimitiveBatchBase@Internal@DirectX@@QAE@PAUID3D11DeviceContext@@III@Z</DECORATED>
+    <FUNCLINE>111</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>PrimitiveBatch.cpp</FILENAME>
+      <LINE>401</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>DirectX::Internal::PrimitiveBatchBase::{ctor}</FUNCTION>
+    <DECORATED>??0PrimitiveBatchBase@Internal@DirectX@@IAE@$$QAV012@@Z</DECORATED>
+    <FUNCLINE>401</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>PrimitiveBatch.cpp</FILENAME>
+      <LINE>408</LINE>
+      <COLUMN>40</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>DirectX::Internal::PrimitiveBatchBase::=</FUNCTION>
+    <DECORATED>??4PrimitiveBatchBase@Internal@DirectX@@IAEAAV012@$$QAV012@@Z</DECORATED>
+    <FUNCLINE>408</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

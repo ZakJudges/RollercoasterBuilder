@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Inc\</FILEPATH>
+      <FILENAME>DirectXHelpers.h</FILENAME>
+      <LINE>63</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'D3D11_MAP' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>DirectX::MapGuard::{ctor}</FUNCTION>
+    <DECORATED>??0MapGuard@DirectX@@QAE@PAUID3D11DeviceContext@@PAUID3D11Resource@@IW4D3D11_MAP@@I@Z</DECORATED>
+    <FUNCLINE>63</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>LoaderHelpers.h</FILENAME>
+      <LINE>27</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'DXGI_FORMAT' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>DirectX::BitsPerPixel</FUNCTION>
+    <DECORATED>?BitsPerPixel@DirectX@@YAIW4DXGI_FORMAT@@@Z</DECORATED>
+    <FUNCLINE>27</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>LoaderHelpers.h</FILENAME>
+      <LINE>790</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'DirectX::DDS_ALPHA_MODE' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>DirectX::GetAlphaMode</FUNCTION>
+    <DECORATED>?GetAlphaMode@DirectX@@YA?AW4DDS_ALPHA_MODE@1@PBUDDS_HEADER@1@@Z</DECORATED>
+    <FUNCLINE>783</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>WICTextureLoader.cpp</FILENAME>
+      <LINE>249</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'WICComponentType' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>`anonymous-namespace'::_WICBitsPerPixel</FUNCTION>
+    <DECORATED>?_WICBitsPerPixel@?A0x7a1f02f6@@YAIABU_GUID@@@Z</DECORATED>
+    <FUNCLINE>239</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Projects\DirectX11Projects\DirectXTK\Src\</FILEPATH>
+      <FILENAME>WICTextureLoader.cpp</FILENAME>
+      <LINE>268</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'D3D11_USAGE' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>`anonymous-namespace'::CreateTextureFromWIC</FUNCTION>
+    <DECORATED>?CreateTextureFromWIC@?A0x7a1f02f6@@YAJPAUID3D11Device@@PAUID3D11DeviceContext@@PAUIWICBitmapFrameDecode@@IW4D3D11_USAGE@@III_NPAPAUID3D11Resource@@PAPAUID3D11ShaderResourceView@@@Z</DECORATED>
+    <FUNCLINE>268</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
